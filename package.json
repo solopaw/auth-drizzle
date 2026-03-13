@@ -1,6 +1,6 @@
 {
-  "name": "@solopaw/auth-drizzle",
-  "version": "1.0.0",
+  "name": "@adamjoelfraser/auth-drizzle",
+  "version": "1.0.1",
   "description": "Postgres auth",
   "keywords": [],
   "license": "ISC",
@@ -14,9 +14,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@auth/core": "^0.34.3",
-    "drizzle-orm": "^0.45.1",
-    "next-auth": "^4.24.13"
+    "@auth/core": "@beta",
+    "drizzle-orm": "@latest",
+    "next-auth": "@beta"
   },
   "devDependencies": {},
   "typings": "./dist/index.d.ts"
