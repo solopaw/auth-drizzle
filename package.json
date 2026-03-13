@@ -1,0 +1,18 @@
+{
+  "name": "@solopaw/auth-drizzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@auth/core": "^0.34.3",
+    "drizzle-orm": "^0.45.1",
+    "next-auth": "^4.24.13"
+  }
+}
